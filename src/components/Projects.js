@@ -56,12 +56,12 @@ export const Projects = () => {
       title: "Desarrollo Web 2021 - 2022",
       description:
         "Maquetado web con HTML y CSS. Optimizando al máximo el desarrollo de sitios web, implementando prácticas de versionado de código con GIT.",
-      link: "",
+      link: "https://res.cloudinary.com/matiascabral/image/upload/v1664988784/portfolio/desarrolloWeb_uzzbiu.png",
     },
     {
       title: "JavaScript 2022 - 2022",
       description: "Desarrollo Front End con JavaScript.",
-      link: "",
+      link: "https://res.cloudinary.com/matiascabral/image/upload/v1664988784/portfolio/javaScript_ur0biv.png",
     },
   ];
 

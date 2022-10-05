@@ -104,7 +104,7 @@ export const Skills = () => {
                 {/* 90% */}
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>GitHUB</h5>
+                  <h5>GitHub</h5>
                 </div>
               </Carousel>
             </div>
