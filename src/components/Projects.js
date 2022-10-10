@@ -114,7 +114,9 @@ export const Projects = () => {
                             return (
                               <Fragment key={index}>
                                 <h1 className="h1Tab">{ex.title} </h1>
-                                <p>{ex.description}</p>
+                                <p style={{ textAlign: "justify" }}>
+                                  {ex.description}
+                                </p>
                               </Fragment>
                             );
                           })}
@@ -126,9 +128,22 @@ export const Projects = () => {
                             return (
                               <Fragment key={index}>
                                 <h1 className="h1Tab">{study.title}</h1>
-                                <p>
-                                  {study.description}
-                                  <br />
+                                <div
+                                  style={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                  }}
+                                >
+                                  <p
+                                    style={{
+                                      textAlign: "justify",
+                                      marginBottom: 0,
+                                    }}
+                                  >
+                                    {study.description}
+                                  </p>
                                   <a
                                     href={study.link}
                                     target="blank"
@@ -136,7 +151,7 @@ export const Projects = () => {
                                   >
                                     Ver certificado
                                   </a>
-                                </p>
+                                </div>
                               </Fragment>
                             );
                           })}
