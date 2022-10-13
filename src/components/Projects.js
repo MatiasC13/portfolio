@@ -113,7 +113,7 @@ export const Projects = () => {
                           {experience.map((ex, index) => {
                             return (
                               <Fragment key={index}>
-                                <h1 className="h1Tab">{ex.title} </h1>
+                                <h1 className="h1Tab h1Exp">{ex.title} </h1>
                                 <p style={{ textAlign: "justify" }}>
                                   {ex.description}
                                 </p>

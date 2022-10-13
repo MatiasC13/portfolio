@@ -391,7 +391,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width:90%;
+  width: 90%;
   /* width: 56%; */
 }
 .project .nav.nav-pills {
@@ -509,6 +509,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .h1Tab {
   text-align: center;
+}
+
+@media (max-width: 430px) {
+  .h1Exp {
+    font-size: 15px;
+  }
 }
 
 .project-card-ancla {
