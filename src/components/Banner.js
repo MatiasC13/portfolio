@@ -75,16 +75,16 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>
-                    Interesado en TI, recientemente comencé a sentirme fascinado
-                    por la programación web, por ejemplo: desarrollando
-                    aplicaciones y construyendo sitios web. Estoy buscando una
-                    compañía dispuesta a ofrecerme una ubicación entre sus
-                    desarrolladores. A cambio, ofrecería todo mi compromiso y
-                    sería una adición agradable y amigable para su equipo. Por
-                    lo tanto, actualmente estoy buscando un trabajo o una
-                    pasantía como un front-end desarrollador.
-                  </p>
+                  {/*  <p>
+                      Interesado en TI, recientemente comencé a sentirme fascinado
+                      por la programación web, por ejemplo: desarrollando
+                      aplicaciones y construyendo sitios web. Estoy buscando una
+                      compañía dispuesta a ofrecerme una ubicación entre sus
+                      desarrolladores. A cambio, ofrecería todo mi compromiso y
+                      sería una adición agradable y amigable para su equipo. Por
+                      lo tanto, actualmente estoy buscando un trabajo o una
+                      pasantía como un front-end desarrollador.
+                    </p>
                   {/* <button onClick={() => console.log("connect")}>
                     Let’s Connt <ArrowRightCircle size={25} />
                   </button> */}
